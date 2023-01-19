@@ -16,7 +16,7 @@
   <body>
     <!-- Navbar Section Start -->
     <div class="container-fluid bg-dark text-light p-0">
-      <nav class="navbar navbar-expand-sm navbar-light bg-dark fixed-top">
+      <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
         <div class="container">
           <a class="navbar-brand text-white" href="#about"
             ><img
@@ -203,7 +203,9 @@
     <section id="projects" class="services mb-5 pt-5 min-vh-100">
       <div class="container text-center">
         <div class="section-title mb-3">
-          <h2 class="mb-xl-5 mb-5 pt-0 pt-md-5 pt-xl-5">Projects and Tools</h2>
+          <h2 class="mb-xl-5 mb-md-5 pt-5 pt-md-5 pt-xl-5">
+            Projects and Tools
+          </h2>
         </div>
 
         <div class="row">
@@ -306,83 +308,77 @@
     <!-- PROJECTS AND TOOLS SECTION END -->
 
     <!-- Contact Section end -->
-    <section id="contact" class="container pt-xl-5 mt-5 mt-xl-5">
-      <div class="row align-items-center">
-        <div class="col-12 mb-3">
-          <h4>Get in touch</h4>
-        </div>
-        <div class="col-md-6 bg-danger align-self-center p-3">
-          <div class="row">
-            <div class="col-12">
-              <form action="">
-                <div class="row">
-                  <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="form-group">
-                      <input
-                        class="form-control"
-                        name="121"
-                        type="text"
-                        required="name"
-                        placeholder="Enter Your Name"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-12 col-xs-12 mt-3 mt-md-0">
-                    <div class="form-group">
-                      <input
-                        class="form-control"
-                        name="122"
-                        type="text"
-                        required="email"
-                        placeholder="Enter Your Email"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12 my-3">
-                    <div class="form-group">
-                      <input
-                        class="form-control"
-                        name="123"
-                        type="text"
-                        required="subject"
-                        placeholder="Subject (optional)"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-group">
-                      <textarea
-                        class="form-control"
-                        rows="8"
-                        name="124"
-                        type="text"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button
-                      type="button"
-                      class="btn btn-secondary mt-3"
-                      data-bs-toggle="modal"
-                      data-bs-target="#staticBackdrop"
-                    >
-                      Send Email
-                    </button>
-                  </div>
+    <section id="contact" class="container">
+      <div class="container d-flex flex-column flex-lg-row">
+        <div class="col-12 col-md-6 align-self-center">
+          <h4 class="mb-3">Get in <span class="text-danger">touch</span></h4>
+          <div class="card">
+            <form action="" class="card card-body bg-danger">
+              <div class="">
+                <div class="form-group pb-3">
+                  <input
+                    class="form-control"
+                    name="121"
+                    type="text"
+                    required="name"
+                    placeholder="Enter Your Name"
+                  />
                 </div>
-              </form>
-            </div>
+
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    name="122"
+                    type="text"
+                    required="email"
+                    placeholder="Enter Your Email"
+                  />
+                </div>
+
+                <div class="form-group pt-3">
+                  <input
+                    class="form-control"
+                    name="123"
+                    type="text"
+                    required="subject"
+                    placeholder="Subject (optional)"
+                  />
+                </div>
+
+                <div class="form-group pt-3">
+                  <textarea
+                    class="form-control"
+                    rows="8"
+                    name="124"
+                    type="text"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button
+                    type="button"
+                    class="btn btn-secondary mt-3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    Send Email
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="col-12 col-md-6 align-self-center">
-          <div class="card card-body bg-dark">
+
+        <div class="col-12 col-md-6 card p-0 mt-5 align-self-center">
+          <div class="card">
             <div class="d-flex">
               <iframe
+                class=""
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1979.6698486866558!2d125.5791915!3d7.0865621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d3a66b4ae1f%3A0x1f96fc968e0093a6!2zN8KwMDUnMTAuMSJOIDEyNcKwMzQnNDAuMiJF!5e0!3m2!1sen!2sus!4v1673972386197!5m2!1sen!2sus"
-                width="600"
-                height="370"
                 style="border: 0"
+                width="490"
+                height="456"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
